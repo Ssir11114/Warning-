@@ -37,8 +37,8 @@ module.exports = {
   sendInfo: async function (message) {
     const botName = "⇛ SISIR❈𝑅𝑂𝐵𝑂𝑇❈ ⇚";
     const botPrefix = ".";
-    const authorName = "𝗠𝗥.𝗔𝗬𝗔𝗡,SISIR-SARKAR";
-    const authorFB = "https://m.me/NOOBS.DEVELOPER.AYAN";
+    const authorName = "SISIR-SARKAR";
+    const authorFB = "https://www.facebook.com/profile.php?id=100079908017635 ";
     const authorInsta = "secret";
     const status = "𝗣𝘂𝗿𝗲 𝗦𝗶𝗻𝗴𝗹𝗲";
 
