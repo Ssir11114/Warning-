@@ -3,7 +3,6 @@ const { getStreamFromURL, uploadImgbb } = global.utils;
 module.exports = {
 	config: {
 		name: "antichangeinfobox",
-    aliases: ["acb"],
 		version: "1.9",
 		author: "NTKhang",
 		countDown: 5,
