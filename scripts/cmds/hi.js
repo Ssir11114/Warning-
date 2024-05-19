@@ -16,6 +16,6 @@ onChat: async function({
     message,
     getLang
 }) {
-    if (event.body && event.body.toLowerCase() == "hi") return message.reply("𝐘𝐞𝐬 𝐢 𝐚𝐦 𝐦𝐢𝐫𝐚 𝐤𝐢𝐦");
+    if (event.body && event.body.toLowerCase() == "hi") return message.reply("হুম বলো Baby আমি শিশিরের পা চাটা চামচা");
 }
 }; 
