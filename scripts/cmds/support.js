@@ -1,9 +1,9 @@
 module.exports = {
   config: {
-    name: "support",
-    aliases: ["supportgc", "gc", "joingc"],
+    name: "supportgc",
+    aliases: ["support", "gc", "gojogc", "joingc"],
     version: "1.0",
-    author: "MR.AYAN",
+    author: "Mesbah Bb'e",
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -18,7 +18,7 @@ module.exports = {
      }
   },
   onStart: async function({ api, event }) {
-    const supportGroupId = "7704667116245106";
+    const supportGroupId = "7826312660752327";
 
     if (event.threadID === supportGroupId) {
       api.sendMessage("⚠ | You are already in the support group.", event.threadID);
