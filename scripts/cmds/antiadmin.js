@@ -19,7 +19,7 @@ module.exports = {
   config: {
     name: "antiadmin",
     version: "1.0",
-    author: "MR.AYAN | MR.SANY",
+    author: "MR.AYAN | SISIR-SARKAR",
     countDown: 5,
     role: 1,
     shortDescription: "",
