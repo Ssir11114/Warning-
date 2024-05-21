@@ -65,12 +65,13 @@ module.exports = {
 
 
       const helpListImages = [
-        "https://i.imgur.com/3ap4QdB.png", // add image link here
-        "https://i.imgur.com/RyPor2K.png",
-        "https://i.imgur.com/Td6POTk.png",
-        "https://i.imgur.com/VAFyQ4y.png",
-        "https://i.imgur.com/3TARwmi.png",
-        // Add more image links as needed
+        "https://i.imgur.com/ZP0ilD1.jpeg", // don't change image
+        "https://i.imgur.com/h5LTRu3.jpeg",
+        "https://i.imgur.com/tj6dKu9.jpeg",
+        "https://i.imgur.com/4zC4JN9.jpeg",
+        "https://i.imgur.com/yBowyV0.jpeg",
+        "https://i.imgur.com/eQ4fyO3.jpeg",
+        // image link fixed bro🖤
       ];
 
 
@@ -113,7 +114,7 @@ module.exports = {
    ➢ 𝙐𝙎𝘼𝙂𝙀
      ➠ ${usage}
    ➢ 𝙉𝙊𝙏𝙀𝙎
-    scripts coding by MR.AYAN
+    scripts coding by SISIR-SARKAR
   ━━━━━━━━━━━━━━━━━━ꔪ`;
 
         await message.reply(response);
