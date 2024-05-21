@@ -15,6 +15,6 @@ onChat: async function({
     message,
     getLang
 }) {
-    if (event.body && event.body.toLowerCase() == "sisir") return message.reply("আমাকে বলতে পারেন বস ঘুমাইছে-!!🥀");
+    if (event.body && event.body.toLowerCase() == "Sisir") return message.reply("আমাকে বলতে পারেন বস ঘুমাইছে-!!🥀");
 }
 }; 
