@@ -5,8 +5,8 @@ if (!global.temp.welcomeEvent)
 module.exports = {
 	config: {
 		name: "welcome",
-		version: "1.0",
-		author: "SISIR-SARKAR",//Command Modified By Aryan Chauhan don't change my author name
+		version: "1.7",
+		author: "NTKhang",
 		category: "events"
 	},
 
@@ -26,14 +26,10 @@ module.exports = {
 			session2: "noon",
 			session3: "afternoon",
 			session4: "evening",
-			welcomeMessage: "┏⌨︎𒅌𒋨📝\n➤  SISIR𖣘𝘽𝙤𝙩࿐ \n┗━━━━━━━━━━━━❀\n\n╔══════════╗\n❍ SISIR𖣘𝘽𝙤𝙩࿐ 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝖾𝖽 𝖲𝗎𝖼𝖼𝖾𝗌𝗌𝖿𝗎𝗅𝗅𝗒\n❍ 𝖳𝗁𝖺𝗇𝗄 𝖸𝗈𝗎 𝖥𝗈𝗋 𝖢𝗁𝗈𝗈𝗌𝗂𝗇𝗀 𝖮𝗎𝗋 SISIR𖣘𝘽𝙤𝙩࿐\n 𝖧𝖺𝗏𝖾 𝖠 𝖦𝗋𝖾𝖺𝗍 𝖣𝖺𝗒\n╚══════════╝",
+			welcomeMessage: "Thank you for inviting me to the group!\nBot prefix: %1\nTo view the list of commands, please enter: %1help",
 			multiple1: "you",
 			multiple2: "you guys",
-			defaultWelcomeMessage: `┏(:̲̅:̲̅:̲̅[̲̅:♡:]̲̅:̲̅:̲̅:̲̅)
-
-
-☠︎︎\n❣️   𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗙𝗥𝗜𝗘𝗡𝗗\n┗━-᱾𝗅‖⎼✊⸺✊⎼‖𝗅᱾-
-━━━❀\n\n𝖸𝗈𝗈 𝖡𝗎𝖽𝖽𝗒.𝖶𝗁𝖺𝗍'𝗌 𝖴𝗉'.𝖧𝗈𝗐 𝖠𝗋𝖾 𝖥𝗋𝗂𝖾𝗇𝖽\n╔════⚢︎𓅰══════╗\n➤   {userName}\n╚══════════╝\n➤ 𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝖳𝗈 𝖮𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖢𝗈𝗆𝗆𝗎𝗇𝗂𝗍𝗒\n➤ 【 {boxName} 】\n\n𝖧𝖺𝗏𝖾 𝖠 𝖶𝗈𝗇𝖿𝖾𝗋𝖥𝗎𝗅𝗅 𝖣𝖺𝗒\n➤ 🌸☺️\n\n❍ 𝗣𝗿𝗲𝗳𝗶𝘅:【 - 】\n❍ 𝗧𝗼 𝘀𝗲𝗲 𝗔𝗹𝗹 𝗮𝘃𝗮𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗧𝘆𝗽𝗲 【 -help 】\n\n➤  SISIR𖣘𝘽𝙤𝙩࿐`
+			defaultWelcomeMessage: `Hello {userName}.\nWelcome {multiple} to the chat group: {boxName}\nHave a nice {session} 😊`
 		}
 	},
 
@@ -133,4 +129,4 @@ module.exports = {
 				}, 1500);
 			};
 	}
-};
+}; 
