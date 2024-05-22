@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `(ᗒᗣᗕ)՞╔═══☔︎═══🂱═𖤍═🂱═══☔︎═══╗(ᗒᗣᗕ)՞\n     𝗦𝗜𝗦𝗜𝗥-𝗥𝗢𝗕𝗢𝗧 𝗖𝗠𝗗🎭🪁\n╚═══𖤍═══☔︎════𖤍════╝`;
+      msg += `(ᗒᗣᗕ)՞╔═══𖣘═══🂱═☠︎︎═🂱═══𓇽═══╗(ᗒᗣᗕ)՞\n     𝗦𝗜𝗦𝗜𝗥-𝗥𝗢𝗕𝗢𝗧 𝗖𝗠𝗗🎭🪁\n╚═══𖤍═══☔︎════𖤍════╝`;
 
       for (const [name, value] of commands) {
           if (value.config.role > 1 && role < value.config.role) continue;
@@ -46,7 +46,7 @@ module.exports = {
 8
       Object.keys(categories).forEach(category => {
           if (category !== "info") {
-              msg += `\n╭───✍︎─────☕︎────⭓\n│『 ${category.toUpperCase()} 』`;
+              msg += `\n╭───❀─────☠︎︎────⭓\n│『 ${category.toUpperCase()} 』`;
 
               const names = categories[category].commands.sort();
               for (let i = 0; i < names.length; i += 1) {
@@ -54,7 +54,7 @@ module.exports = {
                   msg += `\n${cmds.join(" ".repeat(Math.max(0, 5 - cmds.join("").length)))}`;
               }
 
-              msg += `\n╰───⌨︎───𖨆──⭓`;
+              msg += `\n╰───𖣘───𖤍────𒊹︎︎︎`;
           }
       });
 
