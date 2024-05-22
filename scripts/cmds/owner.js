@@ -24,7 +24,7 @@ config: {
       nick: 'SISIR'
     };
 
-    const bold = 'https://i.imgur.com/V0b9r56.jpeg'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
+    const bold = 'https://i.postimg.cc/RFRgMSj6/3b9076596c01e30ca688169aa3879e49.gif '; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
 
     const tmpFolderPath = path.join(__dirname, 'tmp');
 
@@ -61,4 +61,4 @@ Nick: ${ownerInfo.nick}
     return api.sendMessage('An error occurred while processing the command.', event.threadID);
   }
 },
-};
+}; 
