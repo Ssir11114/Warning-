@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `(ᗒᗣᗕ)՞╔═══𖣘═══🂱═☠︎︎═🂱═══𓇽═══╗(ᗒᗣᗕ)՞\n     𝗦𝗜𝗦𝗜𝗥-𝗥𝗢𝗕𝗢𝗧 𝗖𝗠𝗗🎭🪁\n╚═══𖤍═══☔︎════𖤍════╝`;
+      msg += `(ᗒᗣᗕ)՞╔═══☔︎═══🂱═𖤍═🂱═══☔︎═══╗(ᗒᗣᗕ)՞\n     𝗦𝗜𝗦𝗜𝗥-𝗥𝗢𝗕𝗢𝗧 𝗖𝗠𝗗🎭🪁\n╚═══𖤍═══☔︎════𖤍════╝`;
 
       for (const [name, value] of commands) {
           if (value.config.role > 1 && role < value.config.role) continue;
@@ -46,7 +46,7 @@ module.exports = {
 8
       Object.keys(categories).forEach(category => {
           if (category !== "info") {
-              msg += `\n╭───❀─────☠︎︎────⭓\n│『 ${category.toUpperCase()} 』`;
+              msg += `\n╭───༆─────✔︎────⭓\n│『 ${category.toUpperCase()} 』`;
 
               const names = categories[category].commands.sort();
               for (let i = 0; i < names.length; i += 1) {
@@ -54,25 +54,25 @@ module.exports = {
                   msg += `\n${cmds.join(" ".repeat(Math.max(0, 5 - cmds.join("").length)))}`;
               }
 
-              msg += `\n╰───𖣘───𖤍────𒊹︎︎︎`;
+              msg += `\n╰───𖣘───𖤍──⭓`;
           }
       });
 
       const totalCommands = commands.size;
-      msg += `\n𝘾𝙪𝙧𝙧𝙚𝙣𝙩𝙡𝙮, 𝙄 𝙝𝙖𝙫𝙚  ${totalCommands} 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙩𝙝𝙖𝙩 𝙘𝙖𝙣 𝙗𝙚 𝙪𝙨𝙚𝙙. 𝙎𝙤𝙤𝙣 𝙢𝙤𝙧𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙬𝙞𝙡𝙡 𝙗𝙚 𝙖𝙙𝙙𝙚𝙙\n𝗦𝗜𝗦𝗜𝗥-𝗥𝗢𝗕𝗢𝗧`;
-      msg += `𝙏𝙮𝙥𝙚 ${prefix} 𝙝𝙚𝙡𝙥 𝗰𝙤𝙢𝙢𝙖𝙣𝙙 𝗡𝗮𝗺𝗲 𝘁𝗼 𝘃𝗶𝗲𝘄 𝘁𝗵𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 𝗼𝗳 𝘁𝗵𝗮𝘁 𝗰𝗼𝗺𝗺𝗮𝗻𝗱\𝗦𝗜𝗦𝗜𝗥-𝗦𝗔𝗥𝗞𝗔𝗥 𝗜𝗗 𝗟𝗜𝗡𝗞`;
+      msg += `\n𝘾𝙪𝙧𝙧𝙚𝙣𝙩𝙡𝙮, 𝙄 𝙝𝙖𝙫𝙚  ${totalCommands} 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙩𝙝𝙖𝙩 𝙘𝙖𝙣 𝙗𝙚 𝙪𝙨𝙚𝙙. 𝙎𝙤𝙤𝙣 𝙢𝙤𝙧𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙬𝙞𝙡𝙡 𝙗𝙚 𝙖𝙙𝙙𝙚𝙙\nhttps://www.facebook.com/profile.php?id=100079908017635`;
+      msg += `𝙏𝙮𝙥𝙚 ${prefix} 𝙝𝙚𝙡𝙥 𝗰𝙤𝙢𝙢𝙖𝙣𝙙 𝗡𝗮𝗺𝗲 𝘁𝗼 𝘃𝗶𝗲𝘄 𝘁𝗵𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 𝗼𝗳 𝘁𝗵𝗮𝘁 𝗰𝗼𝗺𝗺𝗮𝗻𝗱\n   𝗦𝗜𝗦𝗜𝗥-𝗦𝗔𝗥𝗞𝗔𝗥 𝗜𝗗 𝗟𝗜𝗡𝗞`;
       msg += `https://www.facebook.com/profile.php?id=100079908017635`;
 
 
       const helpListImages = [
 
+"https://i.imgur.com/GmVLSyp.jpeg",
 "https://i.imgur.com/wxLXjjF.jpeg",
-"https://i.imgur.com/GmVLSyp.jpeg ",
-"https://i.imgur.com/nqLUyIp.jpeg",
-"https://i.imgur.com/WsOpB6T.jpeg",
-"https://i.imgur.com/vY5kP1k.mp4",
-"https://i.imgur.com/yw5PVOv.jpeg",
-"https://i.imgur.com/t9l696Z.jpeg"
+"https://i.imgur.com/XnIIWzW.mp4",
+"https://i.imgur.com/RciHf9b.mp4",
+"https://i.imgur.com/j8PIQzA.mp4",
+"https://i.imgur.com/TB8Te0g.mp4",
+"https://i.imgur.com/DuBxn44.mp4"
 ];
 
 
@@ -133,4 +133,4 @@ function roleTextToString(roleText) {
     default:
       return "Unknown role";
   }
-}
+} 
